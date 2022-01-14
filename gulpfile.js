@@ -4,7 +4,10 @@ const gulp = require("gulp");
 const webpack = require("webpack-stream");
 const browsersync = require("browser-sync");
 
+//Сохраняем в dist//
 const dist = "./dist/";
+
+// Сохраняем на сервер //
 // const dist = "/Aleksandr/Programs/OpenServer/domains/test";
 
 gulp.task("copy-html", () => {
